@@ -16,7 +16,7 @@
 			<img class="book3-logo" src="images/svg/main-logo.svg" alt="envoyicon">
 			<div class="book3header-leftsec">
 				<h class="book3-qestion"> Have an account? </h>
-				<a class="book3-link" href="#"> Sign in </a>
+				<a class="book3-link" href="signin.html"> Sign in </a>
 			</div>
 		</div>
 		<!-- ********************************************** Book 2 Content  -->
@@ -51,10 +51,15 @@
 			<div class="book1-btns">
 				<button class="book1-backbtn"><img class="back-btn-aro" src="images/svg/book1-arrow-right.png"
 						alt="back arrow">Back</button>
-				<button class="book1-confirmbtn"> Confirm </button>
+				<button class="book1-confirmbtn" onclick="openSchedulePage()"> Confirm </button>
 			</div>
 		</div>
 	</div>
 </body>
+<script>
+	function openSchedulePage() {
+		window.location.href = "shedule2.html";
+	}
+</script>
 
 </html>

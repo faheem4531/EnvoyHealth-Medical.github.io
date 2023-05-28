@@ -350,6 +350,7 @@ p {
 
   .doctor-res-container {
     background-image: url(/images/pictures/booking-bg-mobile.png);
+    background-color: rgba(27, 27, 194, 0.621);
     position: relative;
     height: 600px;
     display: flex;
@@ -1988,6 +1989,10 @@ p {
   font-size: 20px;
   line-height: 150%;
   color: #FFFFFF;
+}
+
+.mbl-head-email {
+  padding-left: 4px;
 }
 
 @media screen and (max-width: 500px) {

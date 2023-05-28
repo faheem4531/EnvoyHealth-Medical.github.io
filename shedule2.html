@@ -16,7 +16,7 @@
       <img class="book3-logo" src="images/svg/main-logo.svg" alt="envoyicon">
       <div class="book3header-leftsec">
         <h class="book3-qestion"> Have an account? </h>
-        <a class="book3-link" href="#"> Sign in </a>
+        <a class="book3-link" href="signin.html"> Sign in </a>
       </div>
     </div>
     <!-- ********************************************** Book 2 Content  -->
@@ -100,7 +100,7 @@
       </div>
     </div>
     <div class="book2-btn-div">
-      <button class=" book2-btn btn-hover">NEXT STEP</button>
+      <button class=" book2-btn btn-hover" onclick="openSchedulePage()">NEXT STEP</button>
     </div>
   </div>
 </body>
@@ -111,6 +111,10 @@
   timeZoneDropdown.addEventListener('change', () => {
     selectedTimeZoneInput.value = timeZoneDropdown.value;
   });
+
+  function openSchedulePage() {
+    window.location.href = "shedule3.html";
+  }
 </script>
 
 </html>
